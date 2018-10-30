@@ -1,0 +1,7 @@
+<div class="video_text">
+  <h1><%= @posts[:title] %></h1>
+  <div class="video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/<%= @posts[:embed_code] %>" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+  <p><%= @posts[:body] %></p>
+</div>

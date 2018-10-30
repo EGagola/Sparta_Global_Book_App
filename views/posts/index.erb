@@ -1,0 +1,8 @@
+<h1>MoanaTube</h1>
+  <% @posts.each do |posts| %>
+    <div class="main">
+      <div class="post">
+        <h2><a href="/<%= posts[:id] %>"><%= posts[:title] %></a></h2>
+      </div>
+    </div>
+  <% end %>
