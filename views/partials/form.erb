@@ -1,0 +1,25 @@
+<br>
+<div id="main">
+  <form class="" action="/<%= @book.id %>" method="post">
+    <div class="">
+      <label>Title:</label>
+      <input type="text" name="title" value="<%= @book.title %>"><br>
+    </div>
+    <br>
+    <div class="">
+      <label>Author:</label>
+      <input type="text" name="author" value="<%= @book.author %>"><br>
+    </div>
+    <div class="">
+      <label>Description:</label>
+      <textarea name="description" rows="25" cols="150"><%= @book.description %></textarea>
+    </div>
+    <br />
+    <div class="">
+      <% if(@book.id) %>
+        <input type="hidden" name="_method" value="put">
+      <% end %>
+      <input type="submit" value="Save Post">
+  </div>
+  </form>
+</div>

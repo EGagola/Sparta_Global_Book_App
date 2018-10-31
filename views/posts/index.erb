@@ -1,8 +1,9 @@
-<h1>MoanaTube</h1>
-  <% @posts.each do |posts| %>
-    <div class="main">
-      <div class="post">
-        <h2><a href="/<%= posts[:id] %>"><%= posts[:title] %></a></h2>
-      </div>
+<h1>Welcome to my Book Ting</h1>
+<% @book.each do |books| %>
+  <div class="main">
+    <div class="post">
+      <h2><a href="/<%= books.id %>"><%= books.title %></a></h2>
+      <p><%= books.author %></p>
     </div>
-  <% end %>
+  </div>
+<% end %>
