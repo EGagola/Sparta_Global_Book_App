@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+*{
+  font-family: 'Indie Flower', cursive;
+
+}
+
+body {
+  background-color: #EBEBD3;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+.post{
+  display: inline;
+  padding: 2px;
+  flex-direction: column;
+  width: 33%;
+  text-align: center;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #083D77;
+  text-align: center;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+nav a {
+  color: white;
+  font-size: 20pt;
+  font-weight: bold;
+  font-family: 'Indie Flower', cursive;
+}
+#logo {
+  width: 50px;
+  height: 50px;
+}
+h1 {
+  text-align: center;
+  font-size: 50pt;
+  font-family: 'Indie Flower', cursive;
+}
+h2 {
+  text-align: center;
+  font-size: 25pt;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #083D77;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+}
+.footer button {
+  height:25px;
+}
+.video_text{
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.video {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+p{
+font-size: 18pt;
+text-align: center;
+}
